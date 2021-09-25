@@ -24,14 +24,6 @@ main {
 
 }
 
-footer {
-    text-align: center;
-    background-color: #3c5556;
-    padding: 0.5rem;
-    margin-top: 1.5em;
-    color: white;
-
-}
 
 h1,
 h2,
@@ -40,13 +32,28 @@ footer {
     font-family: 'Crimson Text', serif;
 }
 
+
+footer {
+    text-align: center;
+    background-color: #3c5556;
+    padding: 0.5rem;
+    margin-top: 1.5em;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 17px;
+    margin-bottom: 5px;
+
+
+}
+
 footer header h1 {
     font-size: 3em;
     padding: 0px;
 }
 
-footer {
-    font-size: 17px;
+footer p {
+    padding-bottom: 5px;
+    margin-bottom: -3px;
 }
 
 section img {
