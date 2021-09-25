@@ -1,0 +1,70 @@
+body {
+    background-color: #f6f3ee;
+    font-family: 'Work Sans', sans-serif;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    background-color: #3c5556;
+    padding: 1.5rem;
+    color: white;
+}
+
+header,
+footer,
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+footer {
+    text-align: center;
+    background-color: #3c5556;
+    padding: 0.5rem;
+    margin-top: 1.5em;
+    color: white;
+
+}
+
+h1,
+h2,
+h3,
+footer {
+    font-family: 'Crimson Text', serif;
+}
+
+footer header h1 {
+    font-size: 3em;
+    padding: 0px;
+}
+
+footer {
+    font-size: 17px;
+}
+
+section img {
+    width: 90%;
+    height: auto;
+}
+
+section {
+    display: block;
+    background-color: #c8dbd7;
+    border-bottom: 10px solid #f5d4c3;
+    border-top: 10px solid #f5d4c3;
+}
+
+section p {
+    margin: 0.7em;
+}
+
+main section {
+    margin: 0.7em;
+}
