@@ -78,3 +78,7 @@ section p {
 main section {
     margin: 0.7em;
 }
+
+footer a:visited {
+    color: #f5d4c3
+}
