@@ -1,4 +1,8 @@
 @media only screen and (min-width: 37.5em) {
+    .color {
+        grid-template-columns: 1fr 1fr;
+
+    }
 
     header,
     nav,

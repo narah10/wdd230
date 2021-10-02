@@ -96,3 +96,24 @@ footer {
 
 
 }
+
+section {
+    display: block;
+    border: 1.5px solid #051747;
+    padding: 10px;
+    margin: 5px;
+}
+
+.color {
+    text-align: center;
+}
+
+.color ul {
+    text-align: left;
+}
+
+#crimson {
+    font-family: 'Crimson Text', serif;
+    font-size: 1.5rem;
+
+}
