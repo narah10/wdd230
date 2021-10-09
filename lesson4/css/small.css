@@ -1,18 +1,56 @@
+nav {
+    margin: 0 auto;
+    max-width: 760px;
+    background-color: #E7E9F0;
+}
+
+.navigation {
+    list-style: none;
+    padding: 0;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
 header {
     background-color: #051747;
-    padding: 10px;
+    padding: 5px 0;
     display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+header img {
+    width: 70px;
+    height: auto;
 }
 
 header h1 {
-    display: inline;
+    margin-top: 0px;
     color: #E7E9F0;
-    font-size: 2.5rem;
+    font-size: 2rem;
+    margin-bottom: 5px;
 }
 
-header span img {
-    width: 90px;
-    display: inline;
+.headings {
+    display: flex;
+    flex-direction: column;
+}
+
+.m {
+    letter-spacing: 1pt;
+    color: #E7E9F0;
+    margin-left: 20px;
+    font-size: .75rem;
+    padding-bottom: 5px;
+    margin-left: 0px;
+
 }
 
 header,
@@ -29,6 +67,7 @@ nav {
     background-color: #E7E9F0;
     text-align: center;
     padding: 10px;
+
 }
 
 nav ul {
@@ -43,10 +82,9 @@ nav ul li a {
     color: #132035;
     text-align: center;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: .9rem;
     padding: 0.75rem;
     transition: 0.25s;
-
 
 }
 
@@ -74,7 +112,7 @@ main p {
 main {
     display: grid;
     grid-template-columns: 1fr;
-    font-size: 1rem;
+    font-size: .9rem;
     background-color: white;
 }
 
@@ -88,34 +126,33 @@ footer {
 footer {
     text-align: center;
     background-color: #051747;
-    padding: 0.5rem;
-    margin-top: 1.5em;
+    padding: 0.6rem;
     color: #E7E9F0;
     font-family: 'Work Sans', sans-serif;
-    font-size: 1rem;
+    font-size: .8rem;
 }
 
-section {
+.contentbox {
+    background-color: #E7E9F0;
+    padding: 25px;
+    margin: 10px;
+    border-left: 5px solid #051747;
+    ;
+}
+
+.responsive li {
     display: block;
-    border: 1.5px solid #051747;
-    padding: 10px;
-    margin: 5px;
 }
 
-.color {
+main h2 {
     text-align: center;
 }
 
-.color ul {
-    text-align: left;
+.contentbox {
+    text-align: center;
 }
 
-#crimson {
-    font-family: 'Crimson Text', serif;
-    font-size: 1.5rem;
+footer p {
+    margin: 5px;
 
-}
-
-footer a:visited {
-    color: white;
 }
