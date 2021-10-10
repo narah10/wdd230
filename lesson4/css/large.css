@@ -35,6 +35,8 @@
 
     main {
         font-size: 1rem;
+        justify-content: center;
+        align-items: center;
     }
 
 
