@@ -10,7 +10,7 @@ document.querySelector("#copyright").textContent = new Date().getFullYear();
 
 
 /*Footer current date */
-const date = new Date(Date.now());
+var date = new Date(Date.now());
 
-const options = {weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'};
+var options = {weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'};
 document.querySelector("#date").textContent = date.toLocaleDateString('en-UK', options);
