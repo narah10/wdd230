@@ -14,3 +14,10 @@ var date = new Date(Date.now());
 
 var options = {weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'};
 document.querySelector("#date").textContent = date.toLocaleDateString('en-UK', options);
+
+/* banner */
+if (date.getDay() === 5) {
+    document.getElementById("banner").style.display = "block";
+} else{
+    document.getElementById("banner").style.display = "none"; 
+}
