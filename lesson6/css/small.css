@@ -1,0 +1,317 @@
+nav {
+    margin: 0 auto;
+    max-width: 760px;
+    background-color: #E7E9F0;
+}
+
+.navigation {
+    list-style: none;
+    padding: 0;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+header {
+    background-color: #051747;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+header img {
+    width: 70px;
+    height: auto;
+}
+
+header h1 {
+    margin-top: 0px;
+    color: #E7E9F0;
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+}
+
+.m {
+    letter-spacing: 1pt;
+    color: #E7E9F0;
+    margin-left: 20px;
+    font-size: .75rem;
+    padding-bottom: 5px;
+    margin-left: 0px;
+
+}
+
+header,
+nav,
+footer {
+    max-width: 100%;
+    padding: 15px;
+
+}
+
+
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: .9rem;
+    background-color: white;
+}
+
+h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+h3 {
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+.herodiv {
+    margin: 10px auto;
+    position: relative;
+}
+
+/*small weather summary*/
+.weathersummary .values {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.names {
+    text-align: right;
+}
+
+.label_value {
+    padding-left: 5px;
+}
+
+.weathersummary h3 {
+    text-align: center;
+    margin: 0px;
+    padding: 5px;
+}
+
+.weathersummary {
+    box-shadow: 0 0 5px grey;
+    padding: 10px;
+    background-color: #E7E9F0;
+}
+
+
+
+nav {
+    background-color: #E7E9F0;
+    text-align: center;
+    padding: 0px;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+}
+
+nav ul li a {
+    display: block;
+    color: #132035;
+    text-align: center;
+    text-decoration: none;
+    font-size: .9rem;
+    padding: 20px;
+    transition: 0.25s;
+
+}
+
+nav a:hover {
+    background-color: #535F80;
+    color: #E7E9F0;
+    --d: 75%;
+}
+
+body {
+    background-color: white;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+h1,
+h2,
+h3 {
+    color: #051747;
+}
+
+main p {
+    color: #051747;
+}
+
+h1,
+h2,
+h3,
+footer {
+    font-family: 'Crimson Text', serif;
+}
+
+footer {
+    text-align: center;
+    background-color: #051747;
+    padding: 0.6rem;
+    color: #E7E9F0;
+    font-family: 'Work Sans', sans-serif;
+    font-size: .8rem;
+}
+
+.contentbox {
+    background-color: #E7E9F0;
+    padding: 25px;
+    margin: 10px;
+    border-left: 5px solid #051747;
+}
+
+.responsive li {
+    display: block;
+}
+
+.herodiv img {
+    width: 100%;
+}
+
+.contentbox {
+    text-align: center;
+}
+
+footer p {
+    margin: 5px;
+
+}
+
+/*small view for forecast*/
+
+.active {
+    background-color: #051747;
+    color: white;
+}
+
+/* article section */
+.article {
+    text-align: center;
+}
+
+.article h3 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0px;
+
+}
+
+.article img {
+    width: 80%;
+
+}
+
+.article p {
+    font-size: .9rem;
+}
+
+
+/* contact info section*/
+.contact {
+    background-color: #E7E9F0;
+    display: grid;
+    padding: 15px;
+    text-align: left;
+}
+
+.contact p,
+h3 {
+    text-align: left;
+
+}
+
+.contact h3 {
+    font-size: 1.8rem;
+    margin: 0px;
+    padding-left: 0px;
+}
+
+.map {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+    width: 70%;
+}
+
+.social {
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    grid-gap: 5px;
+}
+
+.social img {
+    width: 80%;
+}
+
+/*Five day forecast*/
+
+.grid-col {
+    border-bottom: 5px solid white;
+    border-left: 5px solid white;
+    border-top: 5px solid white;
+    text-align: center;
+}
+
+.grid {
+    border-right: 5px solid white;
+}
+
+.grid-col:hover {
+    opacity: 0.75;
+    background-color: white;
+    color: black;
+}
+
+.col-head {
+    display: block;
+    padding: 5px;
+    border-bottom: 5px solid white;
+    text-align: center;
+    background-color: #535F80;
+    color: white;
+}
+
+.data {
+    display: block;
+    padding: 0 5px 5px;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+#banner {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 10px;
+    background-color: #E7E9F0;
+    color: #051747;
+}
+
+@media only screen and (max-width: 600px) {
+    .div_forecast {
+        display: none;
+    }
+}
