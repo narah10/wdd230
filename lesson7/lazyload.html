@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy Load Images</title>
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <script src="js/imagehandling.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <h1>Progressive Loading (Images)</h1>
+        <picture>
+            <img src="image/placeholder.jpg" data-src="https://placeimg.com/300/400/animals/sepia" alt="Animal Picture">
+        </picture>
+        <picture>
+            <img src="image/placeholder.jpg" data-src="https://placeimg.com/300/400/arch/sepia"
+                alt="Architecture Picture">
+        </picture>
+        <picture>
+            <img src="image/placeholder.jpg" data-src="https://placeimg.com/300/400/nature/grayscale"
+                alt="Nature Picture">
+        </picture>
+        <picture>
+            <img src="image/placeholder.jpg" data-src="https://placeimg.com/300/400/people/sepia" alt="People Picture">
+        </picture>
+        <picture>
+            <img src="image/placeholder.jpg" data-src="https://placeimg.com/300/400/animals/grayscale"
+                alt="Animal Picture">
+        </picture>
+        <picture>
+            <img src="image/placeholder.jpg" data-src="https://placeimg.com/300/400/nature/sepia" alt="Animal Picture">
+        </picture>
+    </main>
+</body>
+
+</html>
