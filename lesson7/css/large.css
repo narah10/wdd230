@@ -1,0 +1,66 @@
+@media only screen and (min-width: 1000px) {
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 auto;
+    }
+
+    .navigation a {
+        text-align: center;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    header {
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    nav ul li a {
+        font-size: 1rem;
+    }
+
+    main {
+        font-size: 1rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    footer {
+        font-size: 1rem;
+    }
+
+    header h1 {
+        font-size: 3.5rem;
+    }
+
+    header img {
+        width: 100px;
+    }
+
+    .m {
+        font-size: .9rem;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+    }
+
+    figure :hover {
+        box-shadow: 0 4px 8px 5px rgba(0, 0, 0, 0.2);
+
+    }
+}
