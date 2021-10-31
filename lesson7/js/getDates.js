@@ -59,10 +59,10 @@ if('IntersectionObserver' in window) {
 /* Using Local Storage */
 const lastVisited = document.querySelector("#lastvisit");
 const millisecondsToDays = 8640000;
-const lastVisit = localStorage.getItem("lastvisit") || date;
+const lastVisit = localStorage.getItem('lastvisit') || date;
 const numberOfDays = Math.round((lastVisit - date) / millisecondsToDays);
 
-if (lastVisit == 0 || lastVisit == NaN ) {
+if (lastVisit === 0 || lastVisit === NaN ) {
     lastVisited.textContent = "This is your first visit";
 } else {
         lastVisited.textContent = numberOfDays;
