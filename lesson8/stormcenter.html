@@ -14,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Work+Sans&display=swap" rel="stylesheet">
     <script defer src="js/getDates.js"></script>
-    <script defer src="js/windchill.js"></script>
+    <script defer src="js/storm.js"></script>
     <title>Weather Tree-Preston</title>
 </head>
 
@@ -46,8 +46,9 @@
         <h1>Storm Center</h1>
         <form method="get" action="thanks.html">
             <fieldset>
-                <legend>Applciation Information</legend>
-                <label class="top">First Name<input type="text" name="fname" required></label>
+                <legend>Contact Information</legend>
+                <label class="top">First Name<input type="text" name="fname" pattern="^[a-zA-Z ]{5,}[a-zA-Z]$"
+                        required></label>
                 <label class="top">Last Name<input type="text" name="lname" required></label>
                 <label class="top">Phone<input type="tel" name="phone" placeholder="1235551234"></label>
                 <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com"
@@ -56,35 +57,35 @@
             <fieldset>
                 <legend>Storm Information</legend>
                 <label class="top">Storm Date <input type="date" name="completedDate"></label>
-                <div>Audience</div>
-                <label class="sbs"><input type="radio" name="audience" value="beginner"> Beginner </label>
-                <label class="sbs"><input type="radio" name="audience" value="intermediate"> Intermediate </label>
-                <label class="sbs"><input type="radio" name="audience" value="advanced"> Advanced </label>
-
-
-                <div>Software Needed</div>
-                <label class="sbs"><input type="checkbox" name="editing" value="yes"> Photo Editing </label>
-                <label class="sbs"><input type="checkbox" name="code" value="yes"> Coding </label>
-                <label class="sbs"><input type="checkbox" name="process" value="yes"> Preprocessor </label>
-                <label class="sbs"><input type="checkbox" name="cliet" value="yes"> FTP Client </label>
-            </fieldset>
-
-            <fieldset>
-                <legend>Funding</legend>
                 <label class="top">Storm Type
-                    <input list="stormlist" name="stormtype" placeholder="Select Type">
-                </label>
+                    <input name="stormtype" list="stormlist" placeholder="Select Type"></label>
                 <datalist id="stormlist">
-                    <option value="Flash Flood"></option>
-                    <option value="Hail"></option>
-                    <option value="Hurricane"></option>
-                    <option value="Thunderstorm"></option>
-                    <option value="Tornado"></option>
+                    <option value="">Please Select &#9662;
+                    <option value="Flash Flood">
+                    <option value="Hail">
+                    <option value="Hurricane">
+                    <option value="Thunderstorm">
+                    <option value="Tornado">
                 </datalist>
-                <label>
-                    "Storm Severity: "
-                    <span id="range"></span>
-                    <input type="range" class="slider" id="range-input" name="rating" min="1" max="10">
+                <label for="rating">Storm Rating: <span id="ratingvalue">5</span>&nbsp;&nbsp;&nbsp;
+                    <input type="range" id="rating" value="" min="1" max="10" step="1" list="tickmarks"
+                        oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+
+                </label>
+                <label class="top" for="regionlist"> Storm Region
+                    <select name="region" id="regionlist" onchange="selectResponse()">
+                        <option value="" disabled selected>Select Region</option>
+                        <option value="preston">Preston</option>
+                        <option value="soda springs">Soda Springs</option>
+                        <option value="fish haven">Fish Haven</option>
+                    </select></label>
+                <div>Are you in danger?</div>
+                <label class="sbs"><input type="radio" name="danger" value="yes"> Yes </label>
+                <label class="sbs"><input type="radio" name="danger" value="no"> No </label>
+                <label class="sbs"><input type="radio" name="danger" value="maybe"> Maybe </label>
+                <label class="top">Comments
+                    <textarea class="comment" name="comment"
+                        placeholder="Add any additional information or comments"></textarea>
                 </label>
 
             </fieldset>
