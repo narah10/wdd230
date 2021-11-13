@@ -1,0 +1,66 @@
+@media only screen and (min-width: 37.5em) {
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 auto;
+    }
+
+    .navigation a {
+        text-align: center;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    header {
+        align-items: center;
+        justify-content: center;
+    }
+
+    main h2 {
+        text-align: left;
+
+    }
+
+
+    nav ul li a {
+        font-size: 1rem;
+    }
+
+    main {
+        font-size: 1rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    footer {
+        font-size: 1rem;
+    }
+
+    header h1 {
+        font-size: 3.5rem;
+    }
+
+    header img {
+        width: 100px;
+    }
+
+    .m {
+        font-size: .9rem;
+    }
+
+    .contact {
+        grid-template-columns: 1fr 1fr;
+        text-align: center;
+    }
+
+    .contact p,
+    h3 {
+        text-align: left;
+    }
+}

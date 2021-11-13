@@ -1,0 +1,15 @@
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+img {
+    width: 50%;
+    display: block;
+    padding: 1rem;
+}
+
+#phone {
+    width: 300px;
+}
