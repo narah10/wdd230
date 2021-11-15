@@ -134,8 +134,13 @@ h3 {
     color: #051747;
 }
 
-main p {
+main p,
+q {
     color: #051747;
+}
+
+q {
+    font-style: italic;
 }
 
 h1,
@@ -207,6 +212,16 @@ h3 {
     width: 70%;
 }
 
+.social {
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    grid-gap: 5px;
+}
+
+.social img {
+    width: 80%;
+}
+
 
 #banner {
     text-align: center;
@@ -219,39 +234,49 @@ h3 {
 /*Data Info Styling*/
 .data {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 1rem;
-    padding: 2rem;
+    grid-template-columns: 1fr;
+    grid-gap: 1.5rem;
+    padding: 1rem;
 }
 
 .data h3 {
     text-align: center;
+    margin: 0px;
 }
 
 .data img {
     padding: 1rem;
-    width: 100%;
+    width: 80%;
     max-width: 300px;
+}
+
+.data section {
+    padding: 2rem;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 .preston,
 .fish,
 .soda {
+    background-color: #E7E9F0;
     box-shadow: 0 1px 5px 0 rgb(13 15 16 / 30%);
     text-align: center;
 }
 
 /*Article styling*/
 .article-style {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 2rem;
+    display: block;
     padding: 1rem;
     text-align: center;
 }
 
 .article-para {
     text-align: left;
+}
+
+.article-para h3 {
+    text-align: center;
 }
 
 .article-img {

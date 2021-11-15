@@ -1,4 +1,14 @@
-@media only screen and (min-width: 35em) {
+@media only screen and (min-width: 40em) {
+
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 auto;
+    }
+
     main {
         font-size: .8rem;
     }
@@ -6,5 +16,38 @@
     nav ul li a {
         font-size: .8rem;
     }
+
+    /*data styling*/
+    .data-info {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .data-info:nth-child(even) img {
+        grid-column: 2;
+    }
+
+    .data-info:nth-child(even) section {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .data-info section {
+        padding: 1rem;
+    }
+
+    .article-style {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .article-para h3 {
+        margin: 0px;
+    }
+
+    .contact {
+        grid-template-columns: 1fr 1fr;
+    }
+
 
 }

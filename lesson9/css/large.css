@@ -1,4 +1,4 @@
-@media only screen and (min-width: 37.5em) {
+@media only screen and (min-width: 50.5em) {
     .navigation {
         display: flex;
     }
@@ -63,4 +63,28 @@
     h3 {
         text-align: left;
     }
+
+    /*data styling*/
+
+    .data {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 1.5rem;
+        padding: 1rem;
+    }
+
+    .data-info {
+        display: block;
+    }
+
+    /*Article styling*/
+    .article-style {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2rem;
+    }
+
+    .article h3 {
+        text-align: left;
+    }
+
 }

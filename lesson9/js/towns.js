@@ -14,7 +14,7 @@ fetch(requestURL)
     prestonData.forEach (townData => {
       let data = document.createElement('section');
       let h3 = document.createElement('h3');
-      let motto = document.createElement('p')
+      let motto = document.createElement('q')
       let p = document.createElement('p')
       let p2 = document.createElement('p')
       let p3 = document.createElement('p')
@@ -39,7 +39,7 @@ fetch(requestURL)
     fishData.forEach (townData => {
       let data = document.createElement('section');
       let h3 = document.createElement('h3');
-      let motto = document.createElement('p')
+      let motto = document.createElement('q')
       let p = document.createElement('p')
       let p2 = document.createElement('p')
       let p3 = document.createElement('p')
@@ -64,7 +64,7 @@ fetch(requestURL)
     sodaData.forEach (townData => {
       let data = document.createElement('section');
       let h3 = document.createElement('h3');
-      let motto = document.createElement('p')
+      let motto = document.createElement('q')
       let p = document.createElement('p')
       let p2 = document.createElement('p')
       let p3 = document.createElement('p')
@@ -76,6 +76,8 @@ fetch(requestURL)
       p2.textContent = `Population: ${townData.currentPopulation}`;
       p3.textContent = `Annual Rain Fall: ${townData.averageRainfall}`;
       
+      
+
 
       data.appendChild(h3);
       data.appendChild(motto);
@@ -89,23 +91,3 @@ fetch(requestURL)
 
 
   });
-    /*
-    for (let i = 0; i < towns.length; i++ ) {
-        let data = document.createElement('section');
-        let h2 = document.createElement('h2');
-        let p = document.createElement('p')
-        let p2 = document.createElement('p')
-        let p3 = document.createElement('p')
-
-        h2.textContent = `${towns[i].name}`;
-        p.textContent = `Year Founded: ${towns[i].yearFounded}`;
-        p2.textContent = `Population: ${towns[i].currentPopulation}`;
-        p3.textContent = `Annual Rain Fall: ${towns[i].averageRainfall}`;
-
-        data.appendChild(h2);
-        data.appendChild(p);
-        data.appendChild(p2);
-        data.appendChild(p3);
-
-        document.querySelector('div.data').appendChild(data);  */
-
