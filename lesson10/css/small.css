@@ -1,3 +1,4 @@
+/*Nave styling*/
 nav {
     margin: 0 auto;
     max-width: 760px;
@@ -17,6 +18,33 @@ nav {
     display: none;
 }
 
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+}
+
+nav ul li a {
+    display: block;
+    color: #132035;
+    text-align: center;
+    text-decoration: none;
+    font-size: .9rem;
+    padding: 20px;
+    transition: 0.25s;
+
+}
+
+nav a:hover {
+    background-color: #535F80;
+    color: #E7E9F0;
+    --d: 75%;
+}
+
+
+/*header styling*/
 header {
     background-color: #051747;
     padding: 5px 0;
@@ -43,6 +71,7 @@ header h1 {
     flex-direction: column;
 }
 
+/*Slogan*/
 .m {
     letter-spacing: 1pt;
     color: #E7E9F0;
@@ -62,7 +91,7 @@ footer {
 }
 
 
-
+/*Main general*/
 main {
     max-width: 1200px;
     margin: 0 auto;
@@ -118,36 +147,12 @@ h3 {
 }
 
 
-
+/*For some reason it gives padding when I remove it and put in the other nav styling*/
 nav {
     background-color: #E7E9F0;
     text-align: center;
     padding: 0px;
 
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 10px;
-    overflow: hidden;
-}
-
-nav ul li a {
-    display: block;
-    color: #132035;
-    text-align: center;
-    text-decoration: none;
-    font-size: .9rem;
-    padding: 20px;
-    transition: 0.25s;
-
-}
-
-nav a:hover {
-    background-color: #535F80;
-    color: #E7E9F0;
-    --d: 75%;
 }
 
 body {
@@ -172,6 +177,8 @@ h3,
 footer {
     font-family: 'Crimson Text', serif;
 }
+
+/*footer styling*/
 
 footer {
     text-align: center;
@@ -227,7 +234,6 @@ footer p {
 
 .article img {
     width: 80%;
-
 }
 
 .article p {

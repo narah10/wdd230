@@ -30,7 +30,7 @@ fetch(api)
     });
 
 /*
-Another method for the arrray 
+Another method for the arrray !!
     const noon = jsObject.list.filter( x => x.dt_txt.includes('18:00:00'));
     const weekdays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 
