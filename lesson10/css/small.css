@@ -20,9 +20,7 @@ nav {
 
 
 nav ul {
-    list-style-type: none;
     margin: 0;
-    padding: 10px;
     overflow: hidden;
 }
 
@@ -47,11 +45,7 @@ nav a:hover {
 /*header styling*/
 header {
     background-color: #051747;
-    padding: 5px 0;
     display: flex;
-    align-items: center;
-    justify-content: center;
-
 }
 
 header img {
@@ -62,7 +56,6 @@ header img {
 header h1 {
     margin-top: 0px;
     color: #E7E9F0;
-    font-size: 2rem;
     margin-bottom: 5px;
 }
 
@@ -75,11 +68,8 @@ header h1 {
 .m {
     letter-spacing: 1pt;
     color: #E7E9F0;
-    margin-left: 20px;
-    font-size: .75rem;
     padding-bottom: 5px;
     margin-left: 0px;
-
 }
 
 header,
@@ -150,7 +140,6 @@ h3 {
 /*For some reason it gives padding when I remove it and put in the other nav styling*/
 nav {
     background-color: #E7E9F0;
-    text-align: center;
     padding: 0px;
 
 }
