@@ -9,8 +9,8 @@ fetch(requestURL)
     const towns = jsonObject['towns'];
 
     /*Preston's data*/
-    const preston = document.querySelector('.preston-event')
-    const prestonData = towns.filter(i => i.name == "Preston");
+    const preston = document.querySelector('.fish-event')
+    const prestonData = towns.filter(i => i.name == "Fish Haven");
     prestonData.forEach (townData => {
       let p = document.createElement('p');
       let p1 = document.createElement('p');
