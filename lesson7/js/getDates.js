@@ -67,5 +67,6 @@ if (lastVisit === 0 || lastVisit === NaN ) {
 } else {
         lastVisited.textContent = numberOfDays;
 }
+localStorage.setItem("lastvisit", Date.now());
 
 
