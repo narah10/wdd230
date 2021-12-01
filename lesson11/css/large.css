@@ -131,9 +131,9 @@
         top: 25px;
         right: 50px;
         background: #E7E9F0;
-        border: 1px solid white;
+        border: 1px solid #ffffff;
         padding: 25px;
-        box-shadow: 0 0 5px grey;
+        box-shadow: 0 0 5px #808080;
         opacity: .9;
     }
 
@@ -171,12 +171,18 @@
     .contact {
         grid-template-columns: 1fr 1fr;
         text-align: center;
+        justify-items: left;
     }
 
     .contact p,
     h3 {
         text-align: left;
     }
+
+    .social img {
+        width: 80%;
+    }
+    
 
     /*Events */
     .event p {

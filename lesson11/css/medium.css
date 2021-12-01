@@ -17,6 +17,12 @@
     main {
         font-size: .8rem;
     }
+    /*contacts*/
+    .contact p,
+h3 {
+    text-align: left;
+
+}
 
     /*forecast for medium screen*/
     .forecast {
