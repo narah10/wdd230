@@ -365,6 +365,7 @@ h3 {
     display: block;
     padding: 1rem;
     text-align: center;
+    margin: 2rem;
 }
 
 .article-para {
@@ -543,6 +544,8 @@ textarea {
 .thanks {
     margin: 3rem;
 }
+
+
 @media only screen and (max-width: 650px) {
     .div_forecast {
         display: none;
