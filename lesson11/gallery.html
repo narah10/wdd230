@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gallery page for Preston, Fish Haven, Soda Springs in Idaho">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Work+Sans&display=swap" rel="stylesheet">
+    <script defer src="js/getDates.js"></script>
+    <script defer src="js/imagehandling.js"></script>
+    <title>Weather Tree-Gallery</title>
+</head>
+
+<body>
+    <header>
+        <picture>
+            <img src=" images/weathertree.png" alt="WeatherTree Official logo" />
+        </picture>
+        <section class="headings">
+            <h1>Weather Tree</h1>
+            <q class="m">The info you need for the day!</q>
+        </section>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a class="hamburger" href="#"> Menu</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="preston-6.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a class="active" href="#">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <figure>
+                <img src="images/placeholder.jpg" data-src="images/sunset.jpg" alt="Sunset in Mountain">
+                <figcaption>Sunset on Preston Mountains</figcaption>
+            </figure>
+            <figure>
+                <img src="images/placeholder.jpg" data-src="images/mount_lake.jpg" alt="Lake near the Mountains">
+                <figcaption>Lakes in Fish Haven</figcaption>
+            </figure>
+            <figure>
+                <img src="images/placeholder.jpg" data-src="images/mountain.jpg" alt="Mountain in Preston">
+                <figcaption>Mountains in Soda Springs</figcaption>
+            </figure>
+            <figure>
+                <img src="images/placeholder.jpg" data-src="images/field.jpg" alt="Field Place">
+                <figcaption>Fields in Preston</figcaption>
+            </figure>
+            <figure>
+                <img src="images/placeholder.jpg" data-src="images/flowers.jpg" alt="Red Flowers">
+                <figcaption>Flowers near Fish Haven Mountain</figcaption>
+            </figure>
+            <figure>
+                <img src="images/placeholder.jpg" data-src="images/lake.jpg" alt="Lake with bridge">
+                <figcaption>Soda Springs Lake</figcaption>
+            </figure>
+            <figure>
+                <img src="images/placeholder.jpg" data-src="images/tree.jpg" alt="Stone mountain">
+                <figcaption>Camping Spots in Preston</figcaption>
+            </figure>
+            <figure>
+                <img src="images/placeholder.jpg" data-src="images/bridge.jpg" alt="Bridge in Mountain">
+                <figcaption>Bridge in Mountain</figcaption>
+            </figure>
+            <figure>
+                <img src="images/placeholder.jpg" data-src="images/fall.jpg" alt="Fall in Mountain">
+                <figcaption>Fall in Mountain</figcaption>
+            </figure>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; <span id="copyright"></span> | Weather Tree | Na Rah Kwak | Idaho </p>
+        <p><span id="date"></span></p>
+        <p>Days Since Last Visit: <span id="lastvisit"></span></p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ['Work Sans', 'Crimson Text']
+            }
+        });
+    </script>
+</body>
+
+</html>
