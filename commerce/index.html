@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Chamber of Commerce for West Seattle to help bulsiness owners grow and develop the community"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link href="css/small.css" rel="stylesheet" />
+    <link href="css/medium.css" rel="stylesheet" />
+    <link href="css/large.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@300&family=Montserrat:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="js/getDates.js"></script>
+    <script defer src="js/weatherInfo.js"></script>
+    <script defer src="js/forecast.js"></script>
+
+    <title>Home</title>
+  </head>
+
+  <body>
+    <div class="header">
+      <header>
+        <picture class="logo">
+          <img
+            src="images/wseattle-logo.png"
+            alt="West Seattle Official Logo"
+          />
+        </picture>
+      </header>
+      <nav>
+        <ul class="navigation">
+          <li><a class="hamburger" href="#"> Menu</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">West Seattle</a></li>
+          <li><a href="#">Join</a></li>
+          <li><a href="#">Directory</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <main>
+      <div class="first-img">
+        <img
+          src="images/main.jpg"
+          alt="Main image on the home page"
+          class="main-img"
+        />
+        <h2 class="first-header">Your Growth <br />Is Our Focus</h2>
+      </div>
+      <h3 class="head">Weather Information</h3>
+      <div>
+        <p></p>
+      </div>
+      <div class="grid">
+        <div class="grid-col">
+          <span class="col-head">Today</span>
+          <p class="today-sum">Currently: <span id="current"></span></p>
+          <p class="today-sum">Temperature: <span id="temp"></span>&#176;F</p>
+          <p class="today-sum">Humidity: <span id="humidity"></span>%</p>
+        </div>
+        <div class="grid-col">
+          <span class="col-head" id="dayofweek1"></span>
+          <img src="#" alt="" id="icon1" />
+          <span class="data" id="forecast1"></span>
+        </div>
+        <div class="grid-col">
+          <span class="col-head" id="dayofweek2"></span>
+          <img src="#" alt="" id="icon2" />
+          <span class="data" id="forecast2"></span>
+        </div>
+        <div class="grid-col">
+          <span class="col-head" id="dayofweek3"></span>
+          <img src="#" alt="" id="icon3" />
+          <span class="data" id="forecast3"></span>
+        </div>
+      </div>
+      <div class="goal">
+        <section>
+          <p class="little-title">Goal and Mission</p>
+          <h3>
+            Working Towards Your Business Growth <br />
+            from Start to Finish
+          </h3>
+          <p>
+            Our mission is to unite the community through business. We aim to
+            preserve the integrity of every business owner and allow for a safe
+            and productive environment for each business to grow and become
+            successful through their own merits.
+          </p>
+          <p>
+            We strive to protect and promote the interest of members within our
+            community. Our pleasure is to see the success of your business and
+            as a member you will have access to local successful bussinesses
+            community and learn what you can do to achieve success within your
+            business.
+          </p>
+        </section>
+        <img
+          src="images/goals.jpg"
+          class="goal-img"
+          alt="West Seattle Goals and Mission image"
+        />
+      </div>
+      <h3 class="head">Upcoming Events</h3>
+      <div class="event-container">
+        <div class="event-section">
+          <div class="event-announce">
+            <div class="event-details first-event">
+              <h4>Winter Wanderland <br />Scavenger Hunt</h4>
+              <p>December 16 @ 3pm</p>
+              <p>
+                All over West Seattle Intended audience: West Seattle residents
+                of all ages (and their friends) Purpose: designed to bring
+                friends and families together for holiday fun! Cost: Free
+              </p>
+            </div>
+            <div class="event-details">
+              <h4>Christmas Light Run 2021 <br />@ West Seattle Runner</h4>
+              <p class="little-title">December 22 @ 4pm</p>
+              <p>
+                Join us for our annual West Seattle Runner Christmas Light Run!
+                Wear your reflective gear, headlamps and festive attire! We will
+                do a leisurely 2-3 mile run to view the local Christmas lights.
+                We start at the shop, will provide the route. Carolers welcomed
+                and encouraged.
+              </p>
+            </div>
+            <div class="event-details">
+              <h4>Live music at <br />Poggie Tavern</h4>
+              <p class="little-title">December 30 @ 6pm</p>
+              <p>
+                Please join us on December 10th at 8 pm! It's '80s throwback
+                night! Bring on your best '80s costume! A prize will be given
+                before the night is over! The Lumberjax are playing; we are so
+                excited to have you be our opener to live music once again!
+              </p>
+            </div>
+            <div class="event-details">
+              <h4>Heron's Nest Holiday Market</h4>
+              <p class="little-title">January 5 @ 9am - 6pm</p>
+              <p>
+                Join us at The Herons Nest to support over 30 Local Crafters,
+                Live Music, Pet & Family Portraits, Food Trucks, Holiday
+                Activities & More!
+              </p>
+            </div>
+          </div>
+          <div class="other-info">
+            <!-- <img src="images/cuisine.jpg" alt="random img"> -->
+            <h4>Heroes Behind Events</h4>
+            <p>
+              All of our events are possible because of our amazing members and
+              their local businesses. Go ahead and visit their local stores to
+              show your support for one another in this community!
+            </p>
+            <button class="btn event-btn">View Directory</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="member-highlight">
+        <h3 class="head">Welcome New Members</h3>
+        <div class="members">
+          <div class="member-details">
+            <img src="images/face1.jpg" alt="New member highlight" />
+            <h4>Manuel Bagueley</h4>
+            <p>West Motor Company</p>
+          </div>
+          <div class="member-details">
+            <img src="images/face2.jpg" alt="New member highlight" />
+            <h4>Tasha Siepert</h4>
+            <p>W.Seattle Real Estate</p>
+          </div>
+          <div class="member-details">
+            <img src="images/face3.jpg" alt="New member highlight" />
+            <h4>Jaycee Romanell</h4>
+            <p>Romanell Family Dentistry</p>
+          </div>
+        </div>
+        <button class="btn">Join Membership</button>
+      </div>
+
+      <div class="companies">
+        <div class="comp-contain">
+          <img
+            class="comp-logo"
+            src="images/comp-logo.png"
+            alt="Advertisement Company"
+          />
+          <img
+            class="comp-logo"
+            src="images/comp-logo2.png"
+            alt="Advertisement Company"
+          />
+          <img
+            class="comp-logo"
+            src="images/comp-logo3.png"
+            alt="Advertisement Company"
+          />
+          <img
+            class="comp-logo"
+            src="images/comp-logo4.png"
+            alt="Advertisement Company"
+          />
+        </div>
+      </div>
+
+      <div class="foot">
+        <div class="foot-detail">
+          <picture class="logo">
+            <img
+              src="images/wseattle-logo.png"
+              alt="Official west Seattle logo"
+            />
+          </picture>
+          <p>
+            The West Seattle Chamber of Commerce is ready to work with you to
+            improve the lives of the community. Your Growth is our Focus and we
+            will join you in your journey of development.
+          </p>
+          <div class="social">
+            <a href="https://www.facebook.com" target="blank">
+              <img src="images/facebook.png" alt="Facebook Icon"
+            /></a>
+            <a href="https://www.instagram.com/" target="blank">
+              <img src="images/insta.png" alt="Instagram Icon"
+            /></a>
+            <a href="https://twitter.com/?lang=en" target="blank">
+              <img src="images/twitter.png" alt="Twitter Icon"
+            /></a>
+            <a href="https://www.youtube.com/" target="blank">
+              <img src="images/youtube.png" alt="youtube Icon"
+            /></a>
+          </div>
+        </div>
+        <div class="useful">
+          <h3 class="little-title">Useful Links</h3>
+          <ul class="list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">West Seattle</a></li>
+            <li><a href="#">Join</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="contact-info">
+          <h3 class="little-title">Contact Us</h3>
+          <p>
+            5841 Milwaukee Ave, West Seattle,<br />
+            WA 98003, United States
+          </p>
+          <p>509.989.644</p>
+          <p>wseattlecoc@westseattle.com</p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>
+        &copy; <span id="copyright"></span> | Weather Tree | Na Rah Kwak | Idaho
+      </p>
+      <p><span id="date"></span></p>
+    </footer>
+  </body>
+</html>

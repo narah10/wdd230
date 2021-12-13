@@ -1,0 +1,113 @@
+@media only screen and (min-width: 60em) {
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    max-width: 1000px;
+    grid-gap: 2rem;
+    padding-top: 0px ;
+    padding-bottom: 2rem;
+}
+
+.grid img {
+    width: 80px;
+    border-radius: 100px;
+    padding: 0px;
+}
+/*header*/
+
+.header {
+    grid-template-columns: 1fr 2fr;
+}
+
+header{
+    text-align: left;
+}
+
+.logo img {
+    width: 70%;
+}
+/*NAV*/
+.navigation {
+    display: flex;
+}
+
+.navigation li {
+    display: block;
+    flex: 1 1 auto;
+}
+
+.navigation a:hover{
+    border-bottom: 3px solid #DF2935;
+    color: #DF2935;
+    transition: 0.25s;
+}
+
+nav ul li a {
+    font-size: 1.3rem;
+}
+
+/*MAIN*/
+.header, .goal, .event-section, .foot, footer{
+    max-width: 1300px;
+}
+
+
+.navigation li:first-child {
+    display: none;
+}
+
+ /*Goal section*/
+ .goal{
+    grid-template-columns: 1fr 1fr;
+}
+
+/*event section*/
+.event-section {
+    grid-template-columns: 2fr 1fr;
+    text-align: left;
+}
+
+.event-announce {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.other-info {
+    text-align: left;
+}
+
+/*members*/
+.members {
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1000px;
+    margin: auto;
+
+}
+.member-details{
+    width: 100%;
+}
+
+/*comp*/
+.comp-logo{
+    width: 40%;
+    padding: 3rem;
+}
+
+.comp-contain {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    max-width: 1000px;
+    margin: 0 auto;
+}
+/*contact section*/
+.foot{
+    grid-template-columns: 2fr 1fr 1fr;
+}
+.foot-detail {
+    grid-column: 1/2;
+}
+
+.foot .logo img {
+    width: 50%;
+}
+
+}
