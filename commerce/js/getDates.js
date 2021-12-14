@@ -10,7 +10,5 @@ document.querySelector("#copyright").textContent = new Date().getFullYear();
 
 
 /*Footer current date */
-var date = new Date(Date.now());
-
-var options = {weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'};
-document.querySelector("#date").textContent = date.toLocaleDateString('en-UK', options);
+document.querySelector("#copyright").textContent = new Date().getFullYear();
+document.querySelector("#updated").textContent = document.lastModified;

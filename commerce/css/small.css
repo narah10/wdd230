@@ -512,3 +512,22 @@ iframe {
     display: block;
 }
 
+.attributions {
+    margin: 0 auto;
+    max-width: 50%;
+    font-size: 1.5rem;
+    padding: 2rem;
+}
+
+.resource {
+    color: #2D5A95; 
+    text-decoration: none;
+}
+
+.resource:hover {
+    color: #DF2935;
+}
+
+.resource:visited {
+    color: #0F1E35;
+}
