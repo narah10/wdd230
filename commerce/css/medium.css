@@ -1,6 +1,6 @@
 @media only screen and (min-width: 40em) {
     /* Grid */
-    .grid {
+    .grid-weather {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
         max-width: 90%;
@@ -45,7 +45,7 @@
 
     /*event section*/
     .event-section {
-        text-align: center;
+        text-align: left;
     }
 
     .event-announce {
@@ -81,5 +81,25 @@
 
     .foot .logo img {
         width: 40%;
+    }
+
+    /*****************WEST SEATTLE PAGE**************************/
+    .seattle-intro{
+    max-width: 60%;
+    }
+
+    /*****************Contact PAGE**************************/
+    .contact-member {
+        grid-template-columns: 1fr 1fr;
+    }
+  /***************JOIN PAGE********************************/
+
+    .join{
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    /************************DIRECTORY PAGE**********************/
+    .information.grid {
+        grid-template-columns: 1fr 1fr;
     }
 }
