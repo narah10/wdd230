@@ -20,8 +20,8 @@
       rel="stylesheet"
     />
     <script defer src="js/getDates.js"></script>
-    <script defer src="js/weatherInfo.js"></script>
     <script defer src="js/forecast.js"></script>
+    <script defer src="js/alerts.js"></script>
 
     <title>Home</title>
   </head>
@@ -40,8 +40,8 @@
           <li><a class="hamburger" href="#"> Menu</a></li>
           <li><a href="index.html" class="active">Home</a></li>
           <li><a href="westseattle.html">West Seattle</a></li>
-          <li><a href="#">Join</a></li>
-          <li><a href="#">Directory</a></li>
+          <li><a href="join.html">Join</a></li>
+          <li><a href="directory.html">Directory</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
@@ -154,14 +154,15 @@
             </div>
           </div>
           <div class="other-info">
-            <!-- <img src="images/cuisine.jpg" alt="random img"> -->
             <h4>Heroes Behind Events</h4>
             <p>
               All of our events are possible because of our amazing members and
               their local businesses. Go ahead and visit their local stores to
               show your support for one another in this community!
             </p>
-            <button class="btn event-btn">View Directory</button>
+            <button class="btn event-btn">
+              <a href="directory.html" class="event-but">View Directory</a>
+            </button>
           </div>
         </div>
       </div>
@@ -185,31 +186,49 @@
             <p>Romanell Family Dentistry</p>
           </div>
         </div>
-        <button class="btn">Join Membership</button>
+        <button class="btn">
+          <a href="join.html" class="event-but">Join Membership</a>
+        </button>
       </div>
 
       <div class="companies">
         <div class="comp-contain">
-          <img
-            class="comp-logo"
-            src="images/comp-logo.png"
-            alt="Advertisement Company"
-          />
-          <img
-            class="comp-logo"
-            src="images/comp-logo2.png"
-            alt="Advertisement Company"
-          />
-          <img
-            class="comp-logo"
-            src="images/comp-logo3.png"
-            alt="Advertisement Company"
-          />
-          <img
-            class="comp-logo"
-            src="images/comp-logo4.png"
-            alt="Advertisement Company"
-          />
+          <figure>
+            <img
+              class="comp-logo"
+              src="images/comp-logo.png"
+              alt="Advertisement Company"
+            />
+            <h4>E-Travel</h4>
+            <figcaption>Plan your next trip with us!</figcaption>
+          </figure>
+          <figure>
+            <img
+              class="comp-logo"
+              src="images/comp-logo2.png"
+              alt="Advertisement Company"
+            />
+            <h4>Filly's Sports</h4>
+            <figcaption>50% off on your first tennis shoe purchase</figcaption>
+          </figure>
+          <figure>
+            <img
+              class="comp-logo"
+              src="images/comp-logo3.png"
+              alt="Advertisement Company"
+            />
+            <h4>Primary Realtor</h4>
+            <figcaption>Need to find your dream home?</figcaption>
+          </figure>
+          <figure>
+            <img
+              class="comp-logo"
+              src="images/comp-logo4.png"
+              alt="Advertisement Company"
+            />
+            <h4>H Construction</h4>
+            <figcaption>Anything you want, We Build</figcaption>
+          </figure>
         </div>
       </div>
 
@@ -244,11 +263,11 @@
         <div class="useful">
           <h3 class="little-title">Useful Links</h3>
           <ul class="list">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">West Seattle</a></li>
-            <li><a href="#">Join</a></li>
-            <li><a href="#">Directory</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="westseattle.html">West Seattle</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="contact.html">Contact</a></li>
           </ul>
         </div>
         <div class="contact-info">

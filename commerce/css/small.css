@@ -186,7 +186,7 @@ h3{
 /*events section*/
 .event-container {
     background-color: #F0F3FA;
-    padding: 3rem;
+    padding: .5rem;
 }
 
 .event-section {
@@ -230,6 +230,12 @@ h3{
 
 .event-btn {
     margin-left: 0px;   
+    
+}
+
+.event-but {
+    text-decoration: none;
+    color: #ffffff;
 }
 
 .other-info {
@@ -270,16 +276,17 @@ h3{
 }
 
 .comp-logo{
-    width: 70%;
-    padding: 3rem 1rem;
+    width: 30%;
 }
 
+figure {
+    margin: 1rem;
+}
 
 .comp-contain {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     text-align: center;
-    
 }
 
 /*Contact Info*/
@@ -361,7 +368,7 @@ footer{
 form fieldset {
     margin: 0 auto;
     border: 1px solid #0f1e35;
-    padding: 1rem 3%;
+    padding: 2.5rem 3%;
     max-width: 40rem;
 }
 
@@ -370,7 +377,7 @@ form{
 }
 
 form legend {
-    margin: 0 1rem;
+    margin: 0 auto;
     padding: 0 .5rem;
     font-size: 1.2rem;
     max-width: 34.5rem;
@@ -443,7 +450,7 @@ textarea {
 }
 
 iframe {
-    width: 100%;
+    width: 50%;
 }
 
   /***************JOIN PAGE********************************/
@@ -494,8 +501,8 @@ iframe {
  .laid {
     background-color: #ffffff;
     padding: 10px;
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    display: flex;
+    flex-direction: column;
  }
 
  .laid:nth-child(odd) {
@@ -531,3 +538,6 @@ iframe {
 .resource:visited {
     color: #0F1E35;
 }
+
+/*
+use less margin in the small view*/

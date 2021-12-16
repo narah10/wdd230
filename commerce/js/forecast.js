@@ -5,7 +5,6 @@ fetch(api)
 .then((response) => response.json())
 .then((jsObject) => {
     const noon = jsObject.list.filter( x => x.dt_txt.includes('12:00:00'));
-
     const weekdays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
     
     let day = 0;

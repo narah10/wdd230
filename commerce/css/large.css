@@ -76,6 +76,10 @@ nav ul li a {
     text-align: left;
 }
 
+.event-container {
+    padding: 3rem;
+}
+
 /*members*/
 .members {
     grid-template-columns: 1fr 1fr 1fr;
@@ -89,9 +93,9 @@ nav ul li a {
 
 /*comp*/
 .comp-logo{
-    width: 70%;
-    padding: 3rem;
+    width: 50%;
 }
+
 
 .comp-contain {
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
@@ -126,5 +130,9 @@ nav ul li a {
 .information.grid {
     grid-template-columns: 1fr 1fr 1fr;
 }
+.laid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+ }
 
 }
