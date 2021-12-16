@@ -4,7 +4,6 @@ const apiURL = "https://api.openweathermap.org/data/2.5/onecall?lat=47.6062&lon=
 fetch(apiURL)
 .then((response) => response.json())
 .then((jsObject) => {
-    console.log(jsObject);
 document.getElementById('temp').textContent = jsObject.current.temp.toFixed(0);
 document.getElementById('current').textContent = jsObject.current.weather[0].description;
 document.getElementById('humidity').textContent = jsObject.current.humidity;
